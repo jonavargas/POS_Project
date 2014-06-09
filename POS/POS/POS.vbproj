@@ -212,6 +212,8 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="Controllers\BillController.vb" />
+    <Compile Include="Controllers\BillDetailController.vb" />
     <Compile Include="Controllers\BrandController.vb" />
     <Compile Include="Controllers\CategoryController.vb" />
     <Compile Include="Controllers\EmployeeController.vb" />
@@ -219,6 +221,7 @@
     <Compile Include="Controllers\ProductsController.vb" />
     <Compile Include="Controllers\ProductSuppliersController.vb" />
     <Compile Include="Controllers\SuppliersController.vb" />
+    <Compile Include="Controllers\WarehouseProductsController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -350,6 +353,21 @@
     <Content Include="Views\Brand\Create.vbhtml" />
     <Content Include="Views\Brand\Edit.vbhtml" />
     <Content Include="Views\Brand\Delete.vbhtml" />
+    <Content Include="Views\Bill\Index.vbhtml" />
+    <Content Include="Views\Bill\Details.vbhtml" />
+    <Content Include="Views\Bill\Create.vbhtml" />
+    <Content Include="Views\Bill\Edit.vbhtml" />
+    <Content Include="Views\Bill\Delete.vbhtml" />
+    <Content Include="Views\BillDetail\Index.vbhtml" />
+    <Content Include="Views\BillDetail\Details.vbhtml" />
+    <Content Include="Views\BillDetail\Create.vbhtml" />
+    <Content Include="Views\BillDetail\Edit.vbhtml" />
+    <Content Include="Views\BillDetail\Delete.vbhtml" />
+    <Content Include="Views\WarehouseProducts\Index.vbhtml" />
+    <Content Include="Views\WarehouseProducts\Details.vbhtml" />
+    <Content Include="Views\WarehouseProducts\Create.vbhtml" />
+    <Content Include="Views\WarehouseProducts\Edit.vbhtml" />
+    <Content Include="Views\WarehouseProducts\Delete.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -369,7 +387,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
