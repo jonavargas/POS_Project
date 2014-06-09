@@ -214,6 +214,10 @@
     <Compile Include="App_Start\WebApiConfig.vb" />
     <Compile Include="Controllers\CategoryController.vb" />
     <Compile Include="Controllers\EmployeeController.vb" />
+    <Compile Include="Controllers\ClientController.vb" />
+    <Compile Include="Controllers\ProductsController.vb" />
+    <Compile Include="Controllers\ProductSuppliersController.vb" />
+    <Compile Include="Controllers\SuppliersController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -320,6 +324,26 @@
     <Content Include="Views\Category\Create.vbhtml" />
     <Content Include="Views\Category\Edit.vbhtml" />
     <Content Include="Views\Category\Delete.vbhtml" />
+    <Content Include="Views\Products\Index.vbhtml" />
+    <Content Include="Views\Products\Details.vbhtml" />
+    <Content Include="Views\Products\Create.vbhtml" />
+    <Content Include="Views\Products\Edit.vbhtml" />
+    <Content Include="Views\Products\Delete.vbhtml" />
+    <Content Include="Views\Client\Index.vbhtml" />
+    <Content Include="Views\Client\Details.vbhtml" />
+    <Content Include="Views\Client\Create.vbhtml" />
+    <Content Include="Views\Client\Edit.vbhtml" />
+    <Content Include="Views\Client\Delete.vbhtml" />
+    <Content Include="Views\Suppliers\Index.vbhtml" />
+    <Content Include="Views\Suppliers\Details.vbhtml" />
+    <Content Include="Views\Suppliers\Create.vbhtml" />
+    <Content Include="Views\Suppliers\Edit.vbhtml" />
+    <Content Include="Views\Suppliers\Delete.vbhtml" />
+    <Content Include="Views\ProductSuppliers\Index.vbhtml" />
+    <Content Include="Views\ProductSuppliers\Details.vbhtml" />
+    <Content Include="Views\ProductSuppliers\Create.vbhtml" />
+    <Content Include="Views\ProductSuppliers\Edit.vbhtml" />
+    <Content Include="Views\ProductSuppliers\Delete.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
