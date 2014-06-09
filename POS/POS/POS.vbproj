@@ -221,6 +221,7 @@
     <Compile Include="Controllers\ProductsController.vb" />
     <Compile Include="Controllers\ProductSuppliersController.vb" />
     <Compile Include="Controllers\SuppliersController.vb" />
+    <Compile Include="Controllers\WarehouseController.vb" />
     <Compile Include="Controllers\WarehouseProductsController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
