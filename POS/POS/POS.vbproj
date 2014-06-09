@@ -212,6 +212,8 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="Controllers\CategoryController.vb" />
+    <Compile Include="Controllers\EmployeeController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -308,6 +310,16 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="packages.config" />
+    <Content Include="Views\Employee\Index.vbhtml" />
+    <Content Include="Views\Employee\Details.vbhtml" />
+    <Content Include="Views\Employee\Create.vbhtml" />
+    <Content Include="Views\Employee\Edit.vbhtml" />
+    <Content Include="Views\Employee\Delete.vbhtml" />
+    <Content Include="Views\Category\Index.vbhtml" />
+    <Content Include="Views\Category\Details.vbhtml" />
+    <Content Include="Views\Category\Create.vbhtml" />
+    <Content Include="Views\Category\Edit.vbhtml" />
+    <Content Include="Views\Category\Delete.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
