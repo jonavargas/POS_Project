@@ -212,6 +212,7 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="Controllers\BrandController.vb" />
     <Compile Include="Controllers\CategoryController.vb" />
     <Compile Include="Controllers\EmployeeController.vb" />
     <Compile Include="Controllers\ClientController.vb" />
@@ -344,6 +345,11 @@
     <Content Include="Views\ProductSuppliers\Create.vbhtml" />
     <Content Include="Views\ProductSuppliers\Edit.vbhtml" />
     <Content Include="Views\ProductSuppliers\Delete.vbhtml" />
+    <Content Include="Views\Brand\Index.vbhtml" />
+    <Content Include="Views\Brand\Details.vbhtml" />
+    <Content Include="Views\Brand\Create.vbhtml" />
+    <Content Include="Views\Brand\Edit.vbhtml" />
+    <Content Include="Views\Brand\Delete.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
