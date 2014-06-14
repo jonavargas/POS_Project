@@ -6,7 +6,9 @@
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
+        @Styles.Render("~/bundles/modernizr")
+        @Styles.Render("~/Content/bootstrap.min.css")
+        @Styles.Render("~/Content/bootstrap-theme.min.css")
     </head>
     <body>
         <header>
@@ -20,9 +22,9 @@
                     </section>
                     <nav>
                         <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Bill", "Index", "Bill")</li>
+                            <li>@Html.ActionLink("BillDetail", "Index", "BillDetail")</li>
+                            <li>@Html.ActionLink("Products", "Index", "Products")</li>
                         </ul>
                     </nav>
                 </div>
@@ -32,6 +34,7 @@
             @RenderSection("featured", required:=false)
             <section class="content-wrapper main-content clear-fix">
                 @RenderBody()
+
             </section>
         </div>
         <footer>
@@ -43,6 +46,7 @@
         </footer>
 
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/Content/js/bootstrap.min.js")
         @RenderSection("scripts", required:=False)
     </body>
 </html>
