@@ -9,7 +9,7 @@ using ClassLibrary1;
 
 namespace POS.Controllers
 {
-    public class ProductSppliersController : Controller
+    public class ProductSuppliersController : Controller
     {
         private POS_DB db = new POS_DB();
 

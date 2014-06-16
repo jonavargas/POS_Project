@@ -190,8 +190,9 @@
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
-    <Compile Include="Controllers\ProductSppliersController.cs" />
+    <Compile Include="Controllers\ProductSuppliersController.cs" />
     <Compile Include="Controllers\SearchProductsController.cs" />
+    <Compile Include="Controllers\SearchSuppliersController.cs" />
     <Compile Include="Controllers\SuppliersController.cs" />
     <Compile Include="Controllers\WarehouseController.cs" />
     <Compile Include="Controllers\WarehouseProductsController.cs" />
@@ -201,6 +202,7 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\SearchProductsModels.cs" />
+    <Compile Include="Models\SearchSuppliersModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -352,11 +354,11 @@
     <Content Include="Views\Products\Create.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Delete.cshtml" />
-    <Content Include="Views\ProductSppliers\Index.cshtml" />
-    <Content Include="Views\ProductSppliers\Details.cshtml" />
-    <Content Include="Views\ProductSppliers\Create.cshtml" />
-    <Content Include="Views\ProductSppliers\Edit.cshtml" />
-    <Content Include="Views\ProductSppliers\Delete.cshtml" />
+    <Content Include="Views\ProductSuppliers\Index.cshtml" />
+    <Content Include="Views\ProductSuppliers\Details.cshtml" />
+    <Content Include="Views\ProductSuppliers\Create.cshtml" />
+    <Content Include="Views\ProductSuppliers\Edit.cshtml" />
+    <Content Include="Views\ProductSuppliers\Delete.cshtml" />
     <Content Include="Views\Suppliers\Index.cshtml" />
     <Content Include="Views\Suppliers\Details.cshtml" />
     <Content Include="Views\Suppliers\Create.cshtml" />
@@ -373,6 +375,7 @@
     <Content Include="Views\WarehouseProducts\Edit.cshtml" />
     <Content Include="Views\WarehouseProducts\Delete.cshtml" />
     <Content Include="Views\SearchProducts\Index.cshtml" />
+    <Content Include="Views\SearchSuppliers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
